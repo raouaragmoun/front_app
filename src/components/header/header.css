@@ -1,0 +1,193 @@
+navbar.css */ .navButton {
+  margin-right: 10px; /* Add spacing between buttons */
+  background-color: #2ecc71; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  background-color: #27ae60; /* Change button background color on hover */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+
+Helper CSS
+-----------------------*/
+
+/*---------------------
+  Hero
+-----------------------*/
+
+.hero-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 5;
+  /* background-image: url("https://lp-cms-production.imgix.net/2019-06/c32f29efd9f1e16d0732dc4ce06918fd-sidi-bou-said.jpg?fbclid=IwAR3QoCv-TDpJ86ehgLN3j-2rVq7AkY1GZObOKhJyNxneNW7mQlcyQPLUHP0"); */
+  max-width: fit-content;
+
+  height: 520px;
+}
+.hero-text {
+  padding-top: 145px;
+}
+.hero-text h1 {
+  font-size: 80px;
+  line-height: 90px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.booking-form {
+  position: absolute;
+  top: 57%;
+  left: 25%;
+  right: 10%;
+  transform: translate(120%, -550px);
+  z-index: 2; /* Assure que le formulaire est au-dessus de l'image */
+  background: white; /* Ajoute un fond semi-transparent pour mieux voir le formulaire */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.booking-form h3 {
+  color: #19191a;
+  margin-bottom: 38px;
+}
+.booking-form form .check-date {
+  position: relative;
+  margin-bottom: 1px;
+}
+.booking-form form .check-date label {
+  font-size: 14px;
+  color: #707079;
+  display: block;
+  margin-bottom: 10px;
+}
+.booking-form form .check-date input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #161650;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.booking-form form .check-date i {
+  color: rgb(92, 163, 92);
+  position: absolute;
+  right: 18px;
+  bottom: 17px;
+}
+.booking-form form .select-option {
+  margin-bottom: 15px;
+}
+.booking-form form .select-option label {
+  font-size: 14px;
+  color: #707079;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.booking-form form .select-option .nice-select {
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+  float: none;
+}
+
+.booking-form form .select-option .nice-select:after {
+  border-bottom: 2px solid #69c86e;
+  border-right: 2px solid #147b33;
+  height: 10px;
+  margin-top: 5px;
+  right: 20px;
+  width: 10px;
+  top: 36%;
+}
+.booking-form form .select-option .nice-select span {
+  font-size: 16px;
+  color: #19191a;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.booking-form form .select-option .nice-select .list {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.booking-form form button {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid #69c86e;
+  border-radius: 2px;
+  color: #69c86e;
+  font-weight: 500;
+  background: transparent;
+  width: 100%;
+  height: 46px;
+  margin-top: 5px;
+}
+
+#guest {
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+  float: none;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+}
+#room {
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+  float: none;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+}
+
+/*-------------------------------- Respinsive Media Styles --------------------------------*/
+
+/* Large Mobile: 480px */
+
+/* Large Mobile: 480px */
+@media screen and (min-width: 100%) {
+  .hero-section .container {
+    width: 80%; /* Change the width as per your requirement */
+  }
+}

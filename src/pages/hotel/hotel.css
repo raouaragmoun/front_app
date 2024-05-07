@@ -1,0 +1,185 @@
+.hotelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hotelWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.bookNow {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border: none;
+  padding: 10px 20px;
+  background-color:#A0DEFE ;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hotelTitle {
+  font-size: 24px;
+  color: #e4dcdc;
+}
+
+.hotelAddress {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotelDistance {
+  color:  #A0DEFE ;
+  font-weight: 500;
+}
+
+.hotelPriceHighlight {
+  color:black;
+  font-weight: 500;
+}
+
+.hotelImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotelImgWrapper {
+  width: 33%;
+}
+
+.hotelImg {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.hotelDetails {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hotelDetailsTexts {
+  flex: 3;
+}
+
+.hotelDesc {
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+
+}
+
+.hotelDetailsPrice {
+  flex: 1;
+  background-color: white;
+  flex-direction: column;
+  gap: 20px;
+  
+  padding-left: 700px;
+  margin-top: 100px;
+
+}
+
+.hotelDetailsPrice > h1 {
+  font-size: 18px;
+  color: #555;
+}
+.hotelDetailsPrice > span {
+  font-size: 14px;
+}
+.hotelDetailsPrice > h2 {
+  font-weight: 300;
+}
+.hotelDetailsPrice > button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #A0DEFE ;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slider{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.613);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+.sliderWrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImg{
+  width: 80%;
+  height: 80vh;
+}
+
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+
+.new{
+  display: flex;
+  
+}
+.arrow{
+  margin: 20px;
+  font-size: 50px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+
+a {
+	font-size: 20px;
+  font-family:"Times New Roman", Times, serif ;
+  
+
+}
+b{
+  font-family: "Times New Roman", Times, serif ;
+  
+}
+
+h4{
+  font-family: "Times New Roman", Times, serif ;
+
+}
+
+
+h5{
+  font-family: "Times New Roman", Times, serif ;
+
+}

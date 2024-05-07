@@ -1,0 +1,106 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+/* Style pour le bouton */
+
+button {
+  background-color: #A0DEFE ; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte */
+  padding: 10px 20px; /* Remplissage intérieur du bouton */
+  font-size: 16px; /* Taille de la police du texte */
+  border: none; /* Supprime la bordure par défaut du bouton */
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Style au survol du bouton */
+button:hover {
+  background-color: black ; /* Couleur de fond au survol */
+}
+
+
+.listSearch {
+  flex: 1;
+  background-color: #f1f1f1; /* Change the background color */
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+  color: white; /* Keep the text color in white */
+}
+
+
+.lsTitle{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem>label{
+  font-size: 12px;
+}
+
+.lsItem>input{
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem>span{
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions{
+  padding: 10px;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionInput{
+  width: 50px;
+}
+
+.listSearch>button{
+  padding: 10px;
+  background-color:black;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.listResult {
+  text-align: center;
+  justify-content: center;
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+
+}

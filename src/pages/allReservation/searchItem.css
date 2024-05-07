@@ -1,0 +1,73 @@
+/* searchItem.css */
+
+
+.searchItem {
+  background-color: #fff; /* Couleur de fond pour chaque élément d'hôtel */
+  border-radius: 8px; /* Coins arrondis pour une apparence plus douce */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour ajouter de la profondeur */
+  padding: 20px; /* Espacement interne pour séparer le contenu des bords */
+}
+
+.siImg {
+  width: 100%; /* Image à 100% de la largeur du conteneur */
+  border-radius: 8px; /* Coins arrondis pour correspondre au conteneur */
+}
+
+.siDesc {
+  margin-top: 15px; /* Espacement entre l'image et la description */
+}
+
+.siTitle {
+  font-size: 20px; /* Taille de la police pour le titre */
+  margin-bottom: 5px; /* Espacement sous le titre */
+}
+
+.siDistance, .siDestination {
+  display: block; /* Affiche les détails sur des lignes séparées */
+  font-size: 14px; /* Taille de la police pour les détails */
+  color: #888; /* Couleur du texte pour les détails */
+}
+
+.siRating {
+  margin-top: 10px; /* Espacement au-dessus de la section de notation */
+}
+
+.siRating span {
+  font-weight: bold; /* Texte en gras pour la qualité */
+}
+
+.siRating button {
+  background-color: #ffc107; /* Couleur de fond pour le bouton de notation */
+  color: #fff; /* Couleur du texte pour le bouton de notation */
+  border: none; /* Supprimer les bordures */
+  padding: 50px 100px; /* Espacement interne pour un meilleur aspect */
+  border-radius: 40px; /* Coins arrondis pour correspondre au style global */
+}
+
+.siDetailTexts {
+  margin-top: 10px; /* Espacement au-dessus des détails de prix */
+}
+
+.siPrice {
+  font-size: 18px; /* Taille de la police pour le prix */
+  font-weight: bold; /* Texte en gras pour attirer l'attention */
+}
+
+.siRating button,
+
+.siCheckButton {
+  /* Vos styles existants ici */
+
+  /* Ajoutez ces propriétés pour centrer le bouton */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100%;
+  right: 300px;
+}
+
+
+.siCheckButton:hover {
+  background-color: #0056b3;
+  position: center;
+  justify-content: center;
+}
